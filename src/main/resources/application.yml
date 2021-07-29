@@ -1,0 +1,9 @@
+server:
+  port: 6040
+balena:
+  api: ${BALENA_URL}
+---
+spring:
+  profiles: local
+balena:
+  api: ${BALENA_URL}
