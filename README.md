@@ -35,14 +35,14 @@ services:
     volumes:
       - ./certs:/etc/nginx/certs:rw
       - /var/run/docker.sock:/var/run/docker.sock:ro
-   open-balena-proxy:
-     image: docker.pkg.github.com/markfieldman/open-balena-dashboard-backend/open-balena-dashboard-backend:latest
-     environment:
-       VIRTUAL_HOST: dashboard.example.com
-       VIRTUAL_PORT: 6040
-       LETSENCRYPT_HOST: dashboard.example.com
-       LETSENCRYPT_EMAIL: my_awesome_mail@mail.com
-       BALENA_URL: https://api.example.com
+  open-balena-proxy:
+    image: docker.pkg.github.com/markfieldman/open-balena-dashboard-backend/open-balena-dashboard-backend:latest
+    environment:
+      VIRTUAL_HOST: dashboard.example.com
+      VIRTUAL_PORT: 6040
+      LETSENCRYPT_HOST: dashboard.example.com
+      LETSENCRYPT_EMAIL: my_awesome_mail@mail.com
+      BALENA_URL: https://api.example.com
 volumes:
   html:
   dhparam:
