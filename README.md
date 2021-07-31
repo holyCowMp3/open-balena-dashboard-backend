@@ -6,6 +6,8 @@ Front-end from [Razikus/open-balena-dashboard](https://github.com/Razikus/open-b
 Main purpose of this project is proxying requests to open-balena-api without the TLS issues from self-signed CA.
 You can use it with, or without front-end part, which are included in this solution.
 ## Example of `docker-compose`
+CAUTION! Configure A DNS record for your domain before deploying solution.
+
 ```yml
 version: '3'
 
