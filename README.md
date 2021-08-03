@@ -5,6 +5,17 @@ Front-end from [Razikus/open-balena-dashboard](https://github.com/Razikus/open-b
 ## Usage 
 Main purpose of this project is proxying requests to open-balena-api without the TLS issues from self-signed CA.
 You can use it with, or without front-end part, which are included in this solution.
+After setting property with open-balena-api instance - use URL of deployed proxy as link for api.
+For example:
+```
+API address - api.example.com
+Dashboard address - dashboard.example.com
+
+Email - email from open balena instance
+Password - your password
+Link - dashboard address etcetera - dashboard.example.com (NOT api.example.com!)
+
+```
 ## Example of `docker-compose`
 CAUTION! Configure A DNS record for your domain before deploying solution.
 
