@@ -19,6 +19,7 @@ Link - dashboard address etcetera - dashboard.example.com (NOT api.example.com!)
 ```
 ## Example of `docker-compose`
 CAUTION! Configure A DNS record for your domain before deploying solution.
+
 CAUTION x2! Before pulling this image from github you will authorize at Github docker registry!
 
 ```yml
