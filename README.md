@@ -6,6 +6,7 @@ Front-end from [Razikus/open-balena-dashboard](https://github.com/Razikus/open-b
 Main purpose of this project is proxying requests to open-balena-api without the TLS issues from self-signed CA.
 You can use it with, or without front-end part, which are included in this solution.
 After setting property with open-balena-api instance - use URL of deployed proxy as link for api.
+
 For example:
 ```
 API address - api.example.com
