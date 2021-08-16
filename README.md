@@ -71,3 +71,4 @@ volumes:
 5. Add support of Web UI login for [balena CLI](https://github.com/balena-io/balena-cli) 🕒
 6. Create dashboard with healthcheck charts of devices 🕒
 7. Add role dividing on proxy level for sharing access to dashboard for another users using `balena api-key create` functionality but with restrictions at proxy level 🕒
+8. Add support of native proxy using dashboard as source for requests. Allow call native `balena tunel` `balena purge` etc using [NuProcess](https://github.com/brettwooldridge/NuProcess)
