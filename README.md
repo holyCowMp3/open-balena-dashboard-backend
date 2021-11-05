@@ -14,7 +14,7 @@ Dashboard address - dashboard.example.com
 
 Email - email from open balena instance
 Password - your password
-Link - dashboard address etcetera - dashboard.example.com (NOT api.example.com!)
+Link - must be empty
 
 ```
 ## Example of `docker-compose`
